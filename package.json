@@ -1,0 +1,11 @@
+{
+  "name": "edupath-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EduPath - Fullstack Adaptive AI Learning & Skill-Gap Platform",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload"
+  }
+}

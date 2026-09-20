@@ -1,0 +1,11 @@
+.venv
+venv
+__pycache__
+*.pyc
+.git
+.agents
+.gemini
+node_modules
+frontend/node_modules
+*.log
+.DS_Store

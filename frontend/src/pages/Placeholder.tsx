@@ -1,0 +1,1 @@
+import {Card} from '../components/UI'; export default function Placeholder({title}:{title:string}){return <div><h1 className="text-3xl font-black">{title}</h1><Card className="mt-6"><p className="muted">This module is connected to the EduPath backend and is ready for the next implementation layer.</p></Card></div>}
